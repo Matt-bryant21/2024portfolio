@@ -5,16 +5,20 @@ import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
