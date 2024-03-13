@@ -4,15 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body {
-    background: #171717;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
 }
 
 h1 {
@@ -27,4 +26,11 @@ h2 {
     font-weight: 400;
     font-size: 5rem;
     color: #FF7A00;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #d9d9d9;
 }
