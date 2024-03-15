@@ -5,14 +5,22 @@ const Homepage = () => {
   return (
     <>
       {/* main div */}
-      <div className="">
-        <div className="bg-blue-500 w-1/4 h-1/4">
-          <h1>HEY, I&apos;M MATT</h1>
-          <h1>HEY, I&apos;M MATT</h1>
-          <h1>HEY, I&apos;M MATT</h1>
-          <h1>HEY, I&apos;M MATT</h1>
+      <div className="flex flex-col">
+        <div className="flex justify-center w-2/4">
+          <div className="flex flex-col items-center">
+            <h1>HEY, I&apos;M MATT</h1>
+            <h1>HEY, I&apos;M MATT</h1>
+            <h1>HEY, I&apos;M MATT</h1>
+            <h1>HEY, I&apos;M MATT</h1>
+          </div>
         </div>
-        <div className="bg-red-500 w-1/4 h-1/4"></div>
+        <div className="flex justify-end bg-backgroundgrey ml-auto h-1/3">
+          <div className="flex flex-col items-end px-32 py-32">
+            <h2>JUNIOR</h2>
+            <h2>FULL STACK</h2>
+            <h2>WEB DEVELOPER</h2>
+          </div>
+        </div>
       </div>
     </>
   );
