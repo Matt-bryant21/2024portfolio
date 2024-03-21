@@ -1,38 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 body {
-    background-color: #171717;
+  background-color: #171717;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 6rem;
-    color: #d9d9d9;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #d9d9d9;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 6rem;
-    color: #FF7A00;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #ff7a00;
 }
 
 li {
-    font-family: 'Inter', sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    color: #d9d9d9;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #d9d9d9;
 }
 
 /* #blockdiv {
