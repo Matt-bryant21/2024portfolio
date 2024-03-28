@@ -21,7 +21,7 @@ const Homepage = () => {
 
   return (
     <>
-      <section>
+      <section className="cursor-crosshair">
         <animated.div
           style={props}
           className="flex flex-col items-center justify-center sm:justify-start sm:flex-row xl:ml-40 h-screen"
@@ -47,13 +47,13 @@ const Homepage = () => {
           </div>
         </animated.div>
       </section>
-      <section>
+      <section className="cursor-crosshair">
         <AboutMe />
       </section>
-      <section>
+      <section className="cursor-crosshair">
         <Projects />
       </section>
-      <section>
+      <section className="cursor-crosshair">
         <Contact />
       </section>
     </>
