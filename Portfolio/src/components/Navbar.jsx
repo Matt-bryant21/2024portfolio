@@ -4,19 +4,22 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="grid grid-cols-4 gap-4 items-center py-2 sticky top-0 z-10 bg-backgrounddark">
-        <a href="/" className="text-center text-backgroundgrey pl-10 hover:text-blue text-sm">
-          home &#x263A;
-        </a>
-        <a href="/aboutme" className="text-center text-backgroundgrey pl-10 hover:text-blue text-sm">
-          about me &#x263A;
-        </a>
-        <a href="/projects" className="text-center text-backgroundgrey text-sm hover:text-blue">
-          projects &#x263A;
-        </a>
-        <a href="/contact" className="text-center text-backgroundgrey text-sm pr-10 hover:text-blue">
-          contact &#x263A;
-        </a>
+      <nav className="flex justify-between items-center py-2 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 sticky top-0 z-10 bg-backgrounddark">
+        <div className="flex justify-center xl:justify-between items-center flex-grow">
+          <a href="/" className="text-backgroundgrey hover:text-blue text-sm">
+            home &#x263A;
+          </a>
+          <a href="/aboutme" className="text-backgroundgrey hover:text-blue text-sm ml-6">
+            about me &#x263A;
+          </a>
+          <a href="/projects" className="text-backgroundgrey hover:text-blue text-sm ml-6">
+            projects &#x263A;
+          </a>
+          <a href="/contact" className="text-backgroundgrey hover:text-blue text-sm ml-6">
+            contact &#x263A;
+          </a>
+        </div>
+        <div className="flex-shrink-0">{/* Add any additional content here */}</div>
       </nav>
     </>
   );
