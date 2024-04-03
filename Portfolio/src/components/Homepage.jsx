@@ -26,7 +26,7 @@ const Homepage = () => {
           style={props}
           className="flex flex-col items-center justify-center sm:justify-start sm:flex-row xl:ml-40 xl:h-screen"
         >
-          <div className="flex flex-col justify-center items-center my-12 sm:ml-0 sm:mr-8">
+          <div className="flex flex-col justify-center items-center my-12 sm:ml-0 sm:mr-8 md:ml-12">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl my-3 whitespace-nowrap">
               HEY, I&apos;M MATT
             </h1>

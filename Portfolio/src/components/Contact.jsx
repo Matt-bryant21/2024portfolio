@@ -9,7 +9,7 @@ const Contact = () => {
           <h2 className="text-4xl text-right my-8">CONTACT CONTACT CONTACT</h2>
         </div> */}
         <div className="justify-center">
-          <h2 className="text-8xl xl:text-9xl mb-12 uppercase text-center hover:underline">
+          <h2 className="text-8xl xl:text-9xl my-20 uppercase text-center hover:underline">
             <a href="mailto:mattthomasbryant@gmail.com">Get in touch!</a>
           </h2>
         </div>
