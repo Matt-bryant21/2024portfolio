@@ -4,19 +4,19 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex justify-between items-center py-2 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 sticky top-0 z-10 bg-backgrounddark">
+      <nav className="flex sm:justify-center xl:justify-between items-center py-2 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 sticky top-0 z-10 bg-backgrounddark">
         <div className="flex justify-center xl:justify-between items-center flex-grow">
           <a href="/" className="text-backgroundgrey hover:text-blue text-sm">
-            home &#x263A;
+            home &#x263A;&#xFE0E;
           </a>
           <a href="/aboutme" className="text-backgroundgrey hover:text-blue text-sm ml-6">
-            about me &#x263A;
+            about me &#x263A;&#xFE0E;
           </a>
           <a href="/projects" className="text-backgroundgrey hover:text-blue text-sm ml-6">
-            projects &#x263A;
+            projects &#x263A;&#xFE0E;
           </a>
           <a href="/contact" className="text-backgroundgrey hover:text-blue text-sm ml-6">
-            contact &#x263A;
+            contact &#x263A;&#xFE0E;
           </a>
         </div>
         <div className="flex-shrink-0">{/* Add any additional content here */}</div>

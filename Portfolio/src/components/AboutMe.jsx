@@ -11,7 +11,7 @@ const AboutMe = () => {
         <div className="flex flex-col sm:flex-row">
           <div className="flex-grow">
             <h1 className="text-backgrounddark text-4xl text-right mb-8 sm:text-5xl md:text-6xl lg:text-7xl">
-              HEY! I&apos;M MATT &#x263A;
+              HEY! I&apos;M MATT &#x263A;&#xFE0E;
             </h1>
             <h1 className="text-backgrounddark uppercase text-4xl text-right sm:text-4xl md:text-5xl lg:text-6xl">
               Creatively driven full stack web developer with a passion for understanding how things work by utilizing
