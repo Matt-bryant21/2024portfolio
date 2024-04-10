@@ -25,7 +25,7 @@ function Main() {
 
   return loading ? (
     <div className="flex justify-center items-center h-screen text-center cursor-crosshair">
-      <BarLoader size={50} color={"#FF7A00"} loading={loading} />
+      <BarLoader size={50} color={"#D9D9D9"} loading={loading} />
     </div>
   ) : (
     <>

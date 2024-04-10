@@ -19,6 +19,7 @@
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
     "react-spring": "^9.7.3",
+    "styled-components": "^6.1.8",
     "three": "^0.162.0",
     "vercel": "^32.3.0"
   },

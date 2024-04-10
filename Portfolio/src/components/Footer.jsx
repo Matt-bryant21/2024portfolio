@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <nav className="flex flex-col lg:flex-row justify-between items-center py-4 lg:py-2 ">
+    <nav className="flex flex-col lg:flex-row bg-backgrounddark justify-between items-center py-4 lg:py-2 ">
       <div className="text-backgroundgrey text-sm text-center lg:text-left lg:pl-10 hover:text-green lg:py-0">
         <a href="/aboutme">Designed by Matt Bryant 2024 &trade;</a>
       </div>

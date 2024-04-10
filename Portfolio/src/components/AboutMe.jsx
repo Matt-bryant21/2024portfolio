@@ -18,10 +18,10 @@ const AboutMe = () => {
               problem solving skills carefully sharpened through years of multidisciplinary ventures. Eager to enter the
               industry and absorb technical knowledge like a sponge.
             </h1>
-            <h1 className="text-customorange text-4xl py-4 text-right uppercase sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="text-backgrounddark text-4xl py-4 text-right uppercase sm:text-4xl md:text-5xl lg:text-6xl">
               Profficient in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more
             </h1>
-            <h1 className="py-16 uppercase text-6xl text-center text-backgrounddark sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="py-4 uppercase text-6xl text-center text-backgrounddark sm:text-4xl md:text-5xl lg:text-7xl">
               Ready to chat today!
             </h1>
           </div>
