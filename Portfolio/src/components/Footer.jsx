@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <nav className="flex flex-col lg:flex-row bg-backgrounddark justify-between items-center py-4 lg:py-2 ">
       <div className="text-backgroundgrey text-sm text-center lg:text-left lg:pl-10 hover:text-green lg:py-0">
-        <a href="/aboutme">Designed by Matt Bryant 2024 &trade;</a>
+        <a href="/aboutme">
+          <span className="text-red">Designed</span> <span className="text-blue">by</span>{" "}
+          <span className="text-green">Matt Bryant 2024</span> <span className="text-yellow">&trade;</span>
+        </a>
       </div>
       <div className="flex justify-center lg:justify-end gap-4 lg:gap-16 px-4 lg:px-20 py-2 lg:py-0">
         <a href="https://www.uncelebratedjewellery.com" className="text-backgroundgrey text-sm hover:text-green">
@@ -26,4 +29,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
