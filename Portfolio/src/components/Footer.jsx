@@ -12,7 +12,7 @@ const Footer = () => {
           uncelebrated jewellery
         </a>
         <a
-          href="https://www.linkedin.com/in/matt-bryant-5813a2293/"
+          href="https://www.linkedin.com/in/mattthomasbryant/"
           className="text-backgroundgrey text-sm hover:text-green"
         >
           linkedin

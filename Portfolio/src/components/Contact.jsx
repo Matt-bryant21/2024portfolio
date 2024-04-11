@@ -41,11 +41,11 @@ const AnimatedFlashText = styled.h2`
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col bg-backgrounddark xl:py-12">
+      <div className="flex flex-col bg-backgrounddark xl:py-12 h-screen justify-center">
         <AnimatedFlashText>
           <div className="justify-center hover:underline">
             <a className="" href="mailto:mattthomasbryant@gmail.com">
-              Get in touch!
+              Get in touch here!
             </a>
           </div>
         </AnimatedFlashText>

@@ -14,10 +14,11 @@ const AboutMe = () => {
               HEY! I&apos;M MATT &#x263A;&#xFE0E;
             </h1>
             <h1 className="text-backgrounddark uppercase text-4xl text-right sm:text-4xl md:text-5xl lg:text-6xl">
-              Creatively driven full stack web developer with a passion for understanding how things work by utilizing
+              A creatively driven Junior Full Stack Web Developer with a passion for understanding how things work, utilizing
               problem solving skills carefully sharpened through years of multidisciplinary ventures. Eager to enter the
-              industry and absorb technical knowledge like a sponge.
+              industry and absorb technical knowledge like a sponge. 
             </h1>
+            <br></br>
             <h1 className="text-backgrounddark text-4xl py-4 text-right uppercase sm:text-4xl md:text-5xl lg:text-6xl">
               Profficient in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more
             </h1>
