@@ -4,7 +4,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <div className="flex flex-col justify-start bg-backgrounddark py-12 px-6 sm:px-12">
+      <div className="flex flex-col justify-start h-screen bg-backgrounddark py-12 px-6 sm:px-12">
         <div>
           <h2 className="text-4xl text-center my-8">PROJECTS PROJECTS PROJECTS</h2>
         </div>

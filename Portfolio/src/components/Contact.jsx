@@ -50,6 +50,12 @@ const Contact = () => {
             </a>
           </div>
         </AnimatedFlashText>
+        <div>
+          <h2 className="text-6xl lg:text-9xl xl:text-9xl text-center">
+            <span className="text-red">&#x263A;&#xFE0E;</span> <span className="text-blue">&#x263A;&#xFE0E;</span>{" "}
+            <span className="text-green">&#x263A;&#xFE0E;</span> <span className="text-yellow">&#x263A;&#xFE0E;</span>
+          </h2>
+        </div>
       </div>
     </>
   );

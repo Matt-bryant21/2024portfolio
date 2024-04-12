@@ -15,7 +15,7 @@ const Homepage = () => {
     to: { opacity: 1 },
     from: { opacity: 0 },
     reset: true,
-    delay: 400,
+    delay: 600,
     immediate: !rendered, // Don't animate if not rendered yet
   });
 
@@ -43,16 +43,16 @@ const Homepage = () => {
         >
           <div className="flex flex-col justify-center items-center my-12 sm:ml-0 sm:mr-8 md:ml-12">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl my-3 whitespace-nowrap">
-              HEY, I&apos;M MATT
+              HEY, I&apos;M MATT <span className="hide text-red">&#x263A;&#xFE0E;</span>
             </h1>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl my-3 whitespace-nowrap">
-              HEY, I&apos;M MATT
+              HEY, I&apos;M MATT <span className="hide text-blue">&#x263A;&#xFE0E;</span>
             </h1>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl my-3 whitespace-nowrap">
-              HEY, I&apos;M MATT
+              HEY, I&apos;M MATT <span className="hide text-green">&#x263A;&#xFE0E;</span>
             </h1>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl my-3 whitespace-nowrap">
-              HEY, I&apos;M MATT
+              HEY, I&apos;M MATT <span className="hide text-yellow">&#x263A;&#xFE0E;</span>
             </h1>
           </div>
           <div className="flex flex-col justify-center items-center px-4 py-3 mb-16">
