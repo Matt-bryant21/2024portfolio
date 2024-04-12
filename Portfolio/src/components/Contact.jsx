@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import styled, { keyframes } from "styled-components";
 
@@ -15,7 +16,7 @@ const flashColors = keyframes`
     background-color: #171717
   }
   100% {
-    background-color: #D9D9D9; /* Magenta */
+    background-color: #D9D9D9; 
   }
 `;
 

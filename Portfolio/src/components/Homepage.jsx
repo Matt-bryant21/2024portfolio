@@ -19,9 +19,24 @@ const Homepage = () => {
     immediate: !rendered, // Don't animate if not rendered yet
   });
 
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll(".hide");
+  hiddenElements.forEach((element) => {
+    observer.observe(element);
+  });
+
   return (
     <>
-      <section className="cursor-crosshair">
+      <section className="hide cursor-crosshair">
         <animated.div
           style={props}
           className="flex flex-col items-center justify-center sm:justify-start sm:flex-row xl:ml-40 xl:h-screen"
@@ -47,13 +62,13 @@ const Homepage = () => {
           </div>
         </animated.div>
       </section>
-      <section className="cursor-crosshair">
+      <section className="hide cursor-crosshair">
         <AboutMe />
       </section>
-      <section className="cursor-crosshair">
+      <section className="hide cursor-crosshair">
         <Projects />
       </section>
-      <section className="cursor-crosshair">
+      <section className="hide cursor-crosshair">
         <Contact />
       </section>
     </>

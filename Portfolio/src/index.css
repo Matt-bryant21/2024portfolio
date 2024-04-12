@@ -42,9 +42,14 @@ li {
   color: #d9d9d9;
 }
 
-/* #blockdiv {
-    background-color: #D9D9D9;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin: 10px;
-} */
+.hide {
+opacity: 0;
+filter: blur(5px);
+transition: opacity 1s;
+}
+
+.show {
+opacity: 1;
+filter: blur(0);
+transition: opacity 1s;
+}
